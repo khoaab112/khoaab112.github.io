@@ -1,0 +1,22 @@
+body{
+	/*background: blue;*/
+}
+h1{
+	/*font-size: 40px;*/
+	color: white;
+
+}
+.view{
+	color: rgb(0,0,6,2);
+	/*background: orange;*/
+	text-align: justify;
+	line-height: 500px;
+
+}
+.img{
+	opacity: 1.0;
+	alt: kjasdjkas;
+	border: 5px;
+	width: 6000px;
+	height: 6000px;
+}

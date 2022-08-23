@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Example1
+	</title>
+</head>
+<body>
+	<h2 style="color:blue;">jkashdjkas</h2>
+	<div>Họ và tên : </div>
+	<input type="text" name="iName">
+	<div >Điểm trung bình : </div>
+	<input type="text" name="iMedium ">
+	<div>Chuyên Nghành : </div>
+	<label>CNTT</label>
+	<input type="radio" name="iSpecialization" value="CNTT">
+	<br>
+	<label>Web</label>
+	<input type="radio" name="iSpecialization" value="Web">
+	<br>
+	<label>Đồ họa</label>
+	<input type="radio" name="iSpecialization" value="DoHoa">
+
+
+	<form action="vidu1.htm" method="get">
+		<!-- ${message} -->
+		<hr>
+		<button name="btnAdd">Them</button>
+		<button name="btnFix">Sua</button>
+		<button name="btnDelete">xóa</button>
+		<button name="btnUpdate">cập nhật</button>
+
+
+	</form>
+	<hr>
+	<table border="1" style="width: 100%">
+		<tr>
+			<th>Họ và tên</th>
+			<th>Điểm trung bình</th>
+			<th>Chuyên nghành</th>
+			<th></th>
+		</tr>
+		<tr>
+			<td>Nguyễn Văn A</td>
+			<td>8.9</td>
+			<td>CNTT</td>
+			<td><a href="vidu1.htm?linkEdit">Sua</a></td>
+		</tr>
+
+	</table>
+</body>
+</html>
